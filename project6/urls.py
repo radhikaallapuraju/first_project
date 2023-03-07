@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app3.views import NTR
+from app6.views import sample
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('NTR/',NTR,name='NTR'),
+    path('sample/',sample,name='sample'),
 ]

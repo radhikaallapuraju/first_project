@@ -5,3 +5,5 @@ from django.http import HttpResponse
 
 def NTR(request):
     return HttpResponse('<marquee>Ntr fan ekkada........#</marquee>')
+def sample(request):
+    return HttpResponce('arey eppudraa.....')
